@@ -168,7 +168,7 @@
           "description": "A detailed breakdown of the budget by period and/or participating funders.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/Transaction"
+            "$ref": "#/definitions/BudgetBreakdown"
           },
           "uniqueItems": true
         }
