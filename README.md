@@ -27,21 +27,57 @@ Thus, we propose the following structure:
       {
         "name": "branch",
         "level": 1,
-        "code": 12,
-        "decription": "Health"
+        "code": "44",
+        "decription": "National Institute for Transparency, Access to Information and Personal Data Protection"
       },
       {
         "name": "resposibleUnit",
         "level": 2,
-        "code": 310,
+        "code": "210",
         "decription": "Management unit"
+      },
+      {
+        "name": "finality",
+        "level": 3,
+        "code": "1",
+        "decription": "Government"
+      },
+      {
+        "name": "function",
+        "level": 4,
+        "code": "310",
+        "decription": "Other general services"
+      },
+      {
+        "name": "subFunction",
+        "level": 5,
+        "code": "04",
+        "decription": "Access to public information"
+      },
+      {
+        "name": "institutionalActivity",
+        "level": 6,
+        "code": "010",
+        "decription": "Transparency, Access to Information and Personal Data Protection"
+      },
+      {
+        "name": "budgetProgram",
+        "level": 7,
+        "code": "E001",
+        "decription": "Guarantee the optimal fulfillment of the rights of access to information and personal data protection"
+      },
+      {
+        "name": "spendingObject",
+        "level": 8,
+        "code": "23301",
+        "decription": "Paper, cardboard and printed products purchased as raw material"
       }
     ],
     "measures": [
       {
         "id": "approved",
         "value": {
-          "amount": 350000,
+          "amount": 35000,
           "currency": "MXN"
         }
       }
