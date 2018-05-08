@@ -126,14 +126,14 @@
           "description": "The hierarchy level of the component.",
           "title": "Level"
         },
-        "id": {
+        "code": {
           "type": [
             "string",
             "integer",
             "null"
           ],
-          "description": "ID to identify a specific value of the origin component.",
-          "title": "ID"
+          "description": "A code to identify a specific value of the origin component.",
+          "title": "Code"
         },
         "description": {
           "type": [
