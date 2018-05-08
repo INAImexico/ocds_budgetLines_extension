@@ -98,6 +98,24 @@ Thus, we propose the following structure:
         "code": "31904",
         "decription": "Computing infrastructure services"
       }
+      {
+        "name": "spendingType",
+        "level": 12,
+        "code": "1",
+        "decription": "Current expenditure"
+      }
+      {
+        "name": "budgetSource",
+        "level": 13,
+        "code": "1",
+        "decription": "Fiscal resourses"
+      }
+      {
+        "name": "region",
+        "level": 14,
+        "code": "09",
+        "decription": "Mexico City"
+      }
     ],
     "measures": [
       {
