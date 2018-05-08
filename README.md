@@ -77,8 +77,8 @@ Thus, we propose the following structure:
       {
         "name": "strategicObjective",
         "level": 8,
-        "code": "GOA12",
-        "decription": "Electronic platform for distance training"
+        "code": "OE1",
+        "decription": "Guarantee the optimal fulfillment of the rights of access to information and personal data protection"
       },
       {
         "name": "requestingUnit",
@@ -89,7 +89,7 @@ Thus, we propose the following structure:
       {
         "name": "specificActivity",
         "level": 10,
-        "code": "",
+        "code": "GOA12",
         "decription": "Provision of integral services in the field of ICT"
       },
       {
@@ -129,3 +129,6 @@ Thus, we propose the following structure:
   }
 ]
 ```
+As a result, we have the budget line identifier for this contracting process: "Electronic platform for distance training"
+
+**44210131004010E001OE1230GOA12319041109**
