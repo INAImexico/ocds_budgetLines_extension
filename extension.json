@@ -1,6 +1,6 @@
 {
   "name": {
-    "en" : "budgetLines_extension"
+    "en" : "Budget lines"
    },
   "description": {
     "en": "This extension allows you to disaggregate the components of the budget line identifier."
