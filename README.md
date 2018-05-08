@@ -1,4 +1,4 @@
-# ocds_budgetLines_extension
+# Budget lines
 
 ## Background
 
