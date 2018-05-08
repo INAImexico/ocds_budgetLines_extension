@@ -14,7 +14,15 @@ This composition allows you to express all the components of the identifier of t
 
 **Administrative** | **Programmatic** | **Economic** | **Geographic** 
 --|--|--|--
-Branch, Responsible unit | Finality, Function, Sub function, Institutional activity, Budget program | Spending object, Spending type, Financial source | Region 
+Branch, Responsible unit | Finality, Function, Sub function, Institutional activity, Budget program | Spending object, Spending type, Financial source | Region
+
+However, at INAI through the Institutional Performance Evaluation System (IPES) we can link the budget line with the specific activity of the unit that justify the need for the good or service.
+
+**Administrative** | **Programmatic** | **Economic** | **Geographic** 
+--|--|--|--
+Branch, Responsible unit | Finality, Function, Sub function, Institutional activity, Budget program, *Strategic objective*, *Requesting unit*, *Specific activity* | Spending object, Spending type, Financial source | Region
+
+*Italics* for the new components from INAI.
 
 Thus, we propose the following structure:
 
@@ -67,10 +75,28 @@ Thus, we propose the following structure:
         "decription": "Guarantee the optimal fulfillment of the rights of access to information and personal data protection"
       },
       {
-        "name": "spendingObject",
+        "name": "strategicObjective",
         "level": 8,
-        "code": "23301",
-        "decription": "Paper, cardboard and printed products purchased as raw material"
+        "code": "GOA12",
+        "decription": "Electronic platform for distance training"
+      },
+      {
+        "name": "requestingUnit",
+        "level": 9,
+        "code": "230",
+        "decription": "Information Technology Unit"
+      },
+      {
+        "name": "specificActivity",
+        "level": 10,
+        "code": "",
+        "decription": "Provision of integral services in the field of ICT"
+      },
+      {
+        "name": "spendingObject",
+        "level": 11,
+        "code": "31904",
+        "decription": "Computing infrastructure services"
       }
     ],
     "measures": [
