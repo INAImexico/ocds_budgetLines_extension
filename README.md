@@ -16,7 +16,7 @@ This composition allows you to express all the components of the identifier of t
 --|--|--|--
 Branch, Responsible unit | Finality, Function, Sub function, Institutional activity, Budget program | Spending object, Spending type, Financial source | Region
 
-However, at INAI through the Institutional Performance Evaluation System (IPES) we can link the budget line with the specific activity of the unit that justify the need for the good or service.
+However, at INAI through the Institutional Performance Evaluation System (SEDI) we can link the budget line with the specific activity of the unit that justify the need for the good or service.
 
 **Administrative** | **Programmatic** | **Economic** | **Geographic** 
 --|--|--|--
@@ -131,4 +131,4 @@ Thus, we propose the following structure:
 ```
 As a result, we have the budget line identifier for this contracting process: "Electronic platform for distance training"
 
-**44210131004010E001OE1230GOA12319041109**
+-------->  **44210131004010E001OE1230GOA12319041109**
