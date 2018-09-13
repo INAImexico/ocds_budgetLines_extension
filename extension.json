@@ -10,5 +10,8 @@
   ],
   "documentationUrl": {
     "en": "https://github.com/INAImexico/ocds_budgetLines_extension"
-   }
+   },
+  "schemas": [
+    "release-schema.json"
+  ]
 }
