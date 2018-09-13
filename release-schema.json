@@ -32,7 +32,8 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/Component"
-          }
+          },
+          "wholeListMerge": true
         },
         "measures": {
           "title": "Measures",
@@ -40,7 +41,8 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/Measure"
-          }
+          },
+          "wholeListMerge": true
         }
       }
     },
@@ -96,7 +98,8 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/BudgetLine"
-          }
+          },
+          "wholeListMerge": true
         }
       },
       "required": [
