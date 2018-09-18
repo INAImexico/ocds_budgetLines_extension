@@ -6,9 +6,12 @@
     "en": "This extension allows you to disaggregate the components of the budget line identifier."
    },
   "compatibility": [
-  "1.1",
+  "1.1"
   ],
   "documentationUrl": {
     "en": "https://github.com/INAImexico/ocds_budgetLines_extension"
-   }
+   },
+  "schemas": [
+    "release-schema.json"
+  ]
 }
