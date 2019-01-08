@@ -18,7 +18,15 @@
           "title": "Value",
           "description": "The value of the budget line item.",
           "$ref": "#/definitions/Value"
-        }
+        },
+        "update": {
+          "title": "Period of updating",
+          "description": "The period in which these measures are updated.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }          
       }
     },
     "BudgetLine": {
