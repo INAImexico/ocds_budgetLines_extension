@@ -56,50 +56,6 @@
     },
     "BudgetBreakdown": {
       "properties": {
-        "id": {
-          "type": [
-            "string",
-            "integer"
-          ],
-          "description": "An identifier for this particular budget entry.",
-          "title": "Identifier"
-        },
-        "description": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "A short free text description of this budget entry.",
-          "title": "Description"
-        },
-        "amount": {
-          "title": "Amount",
-          "description": "The value of the budget line item.",
-          "$ref": "#/definitions/Value"
-        },
-        "uri": {
-          "title": "Linked budget information",
-          "description": "A URI pointing directly to a machine-readable information about this budget entry.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "format": "uri"
-        },
-        "period": {
-          "title": "Budget period",
-          "description": "The period covered by this budget entry.",
-          "$ref": "#/definitions/Period"
-        },
-        "sourceParty": {
-          "title": "Source party",
-          "description": "The organization or other party related to this budget entry. If the budget amount is positive, this indicates a flow of resources from the party to the contracting process. If the budget amount is negative, it indicates a payment from the contracting process to this party.",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/OrganizationReference"
-          },
-          "uniqueItems": true
-        },
         "budgetLines": {
           "title": "Budget lines",
           "description": "A list of the budget lines associated to this party.",
@@ -109,14 +65,7 @@
           },
           "wholeListMerge": true
         }
-      },
-      "required": [
-        "id",
-        "name"
-      ],
-      "type": "object",
-      "description": "This section allows a detailed budget breakdown to be expressed, covering multiple budget sources and multiple periods.",
-      "title": "Detailed budget breakdown"
+      }
     },
     "Component": {
       "properties": {
