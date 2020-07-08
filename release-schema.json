@@ -36,8 +36,7 @@
       "properties": {
         "id": {
           "type": [
-            "string",
-            "integer"
+            "string"
           ],
           "title": "Budget line ID",
           "description": "An id for this budget line. This must be the concatenation of every code contained in the components array."
