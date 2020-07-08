@@ -34,6 +34,14 @@
       "title": "Budget line",
       "description": "This section contain detailed information about the budget line.",
       "properties": {
+        "id": {
+          "type": [
+            "string",
+            "integer"
+          ],
+          "title": "Budget line ID",
+          "description": "An id for this budget line. This must be the concatenation of every code contained in the components array."
+        },
         "components": {
           "title": "Components",
           "description": "A list of components that make up the identifier for this budget line.",
