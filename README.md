@@ -31,88 +31,95 @@ Thus, we propose the following structure:
 ```json
 "budgetLines": [
   {
+    "id": "201944210131004010E001OE1230GOA12319041109",
     "components": [
       {
-        "name": "branch",
+        "name": "cycle",
         "level": 1,
+        "code": "2019",
+        "decription": "2019"
+      },
+      {
+        "name": "branch",
+        "level": 2,
         "code": "44",
         "decription": "National Institute for Transparency, Access to Information and Personal Data Protection"
       },
       {
         "name": "resposibleUnit",
-        "level": 2,
+        "level": 3,
         "code": "210",
         "decription": "Management unit"
       },
       {
         "name": "finality",
-        "level": 3,
+        "level": 4,
         "code": "1",
         "decription": "Government"
       },
       {
         "name": "function",
-        "level": 4,
+        "level": 5,
         "code": "310",
         "decription": "Other general services"
       },
       {
         "name": "subFunction",
-        "level": 5,
+        "level": 6,
         "code": "04",
         "decription": "Access to public information"
       },
       {
         "name": "institutionalActivity",
-        "level": 6,
+        "level": 7,
         "code": "010",
         "decription": "Transparency, Access to Information and Personal Data Protection"
       },
       {
         "name": "budgetProgram",
-        "level": 7,
+        "level": 8,
         "code": "E001",
         "decription": "Guarantee the optimal fulfillment of the rights of access to information and personal data protection"
       },
       {
         "name": "strategicObjective",
-        "level": 8,
+        "level": 9,
         "code": "OE1",
         "decription": "Guarantee the optimal fulfillment of the rights of access to information and personal data protection"
       },
       {
         "name": "requestingUnit",
-        "level": 9,
+        "level": 10,
         "code": "230",
         "decription": "Information Technology Unit"
       },
       {
         "name": "specificActivity",
-        "level": 10,
+        "level": 11,
         "code": "GOA12",
         "decription": "Provision of integral services in the field of ICT"
       },
       {
         "name": "spendingObject",
-        "level": 11,
+        "level": 12,
         "code": "31904",
         "decription": "Computing infrastructure services"
       },
       {
         "name": "spendingType",
-        "level": 12,
+        "level": 13,
         "code": "1",
         "decription": "Current expenditure"
       },
       {
         "name": "budgetSource",
-        "level": 13,
+        "level": 14,
         "code": "1",
         "decription": "Fiscal resourses"
       },
       {
         "name": "region",
-        "level": 14,
+        "level": 15,
         "code": "09",
         "decription": "Mexico City"
       }
