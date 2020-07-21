@@ -22,6 +22,14 @@
             "null"
           ]
         },
+        "fundType": {
+          "title": "Budget fund type",
+          "description": "Description of the budget fund type.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
         "value": {
           "title": "Value",
           "description": "The value of the budget line item.",
