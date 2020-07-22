@@ -41,22 +41,6 @@
           "title": "Budget line ID",
           "description": "An id for this budget line. This must be the concatenation of every code contained in the components array."
         },
-        "origin": {
-          "title": "Budget origin",
-          "description": "Origin of the budget resourses.",
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "fundType": {
-          "title": "Budget fund type",
-          "description": "Description of the budget fund type.",
-          "type": [
-            "string",
-            "null"
-          ]
-        },
         "components": {
           "title": "Components",
           "description": "A list of components that make up the identifier for this budget line.",
